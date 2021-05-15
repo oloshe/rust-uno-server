@@ -1,0 +1,13 @@
+[package]
+name = "rust-uno-server"
+version = "0.1.0"
+authors = ["oloshe <jacob.j@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.async-std]
+version = "1.6"
+features = ["attributes"]
